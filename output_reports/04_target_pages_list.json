@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Home Gateway",
+    "file_name": "index",
+    "purpose": "没入的なブランド体験の入り口。世界観を提示し、メインコンテンツへの期待感を醸成する。"
+  },
+  {
+    "title": "Ethos Home",
+    "file_name": "top",
+    "purpose": "サイトの中枢。各セクションへの動線を集約し、ブランドの現在地と最新情報を一覧化する。"
+  },
+  {
+    "title": "Our Philosophy",
+    "file_name": "philosophy",
+    "purpose": "ブランドの『思想』を伝達する。人間の尊厳と幸福に関するマニフェストを提示し、共感を得る。"
+  },
+  {
+    "title": "AI Wisdom",
+    "file_name": "wisdom",
+    "purpose": "ブランドの『知性』を証明する。技術的根拠と方法論を開示し、信頼を獲得する。"
+  },
+  {
+    "title": "Future Vision",
+    "file_name": "future",
+    "purpose": "ブランドが描く『未来』を共有する。長期的なロードマップと社会像を提示し、期待値を高める。"
+  },
+  {
+    "title": "Contact & Community",
+    "file_name": "connect",
+    "purpose": "ユーザーとの『接続』を図る。一方的な発信ではなく、対話と共創の場への参加を促す。"
+  }
+]
