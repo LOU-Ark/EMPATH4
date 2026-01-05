@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Community | Ethos Intelligence</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', 'Noto Sans JP', sans-serif; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .bg-ethos { background-color: #1A237E; }
+        .text-ethos { color: #1A237E; }
+        .border-ethos { border-color: #1A237E; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 leading-relaxed">
+
+<!-- Header -->
+<header class="fixed top-0 w-full z-50 bg-white/90 backdrop-blur-md border-b border-slate-100">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 h-20 flex justify-between items-center gap-4">
+    <a href="../index.html" class="flex items-center gap-2 sm:gap-3 group shrink-0">
+      <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl flex items-center justify-center text-white font-black shadow-lg" style="background-color: #1A237E">
+        E
+      </div>
+      <span class="text-lg sm:text-xl font-black text-slate-800 tracking-tight group-hover:text-indigo-600 transition-colors">
+        Ethos Intelligence
+      </span>
+    </a>
+    <nav class="hidden md:flex items-center gap-6 overflow-x-auto no-scrollbar">
+      <a href="../top/index.html" class="text-sm font-bold text-slate-600 hover:text-indigo-600 transition-colors whitespace-nowrap">
+        Ethos Home
+      </a>
+      <a href="../philosophy/index.html" class="text-sm font-bold text-slate-600 hover:text-indigo-600 transition-colors whitespace-nowrap">
+        Our Philosophy
+      </a>
+      <a href="../wisdom/index.html" class="text-sm font-bold text-slate-600 hover:text-indigo-600 transition-colors whitespace-nowrap">
+        AI Wisdom
+      </a>
+      <a href="../future/index.html" class="text-sm font-bold text-slate-600 hover:text-indigo-600 transition-colors whitespace-nowrap">
+        Future Vision
+      </a>
+      <a href="../connect/index.html" class="text-sm font-bold text-slate-600 hover:text-indigo-600 transition-colors whitespace-nowrap">
+        Contact & Community
+      </a>
+    </nav>
+    <div class="flex items-center gap-3">
+      <a href="#contact-form" class="px-5 py-2.5 bg-slate-900 text-white text-xs font-black rounded-full hover:bg-indigo-600 transition-all shadow-lg shadow-slate-200">
+        Contact
+      </a>
+    </div>
+  </div>
+</header>
+
+<main class="pt-32 pb-20">
+    <!-- Hero Section -->
+    <section class="max-w-7xl mx-auto px-6 mb-24 text-center">
+        <span class="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-white bg-ethos rounded-full">CONNECT</span>
+        <h1 class="text-4xl md:text-6xl font-black mb-8 tracking-tighter text-slate-900">
+            知性の共創、<br class="hidden sm:block">未来への対話。
+        </h1>
+        <p class="max-w-3xl mx-auto text-slate-600 text-lg md:text-xl font-medium leading-relaxed">
+            Ethos Intelligenceは、単なる技術提供の場ではありません。AIと人間が織りなす「最高の幸福」を探求し、共有するためのプラットフォームです。
+        </p>
+    </section>
+
+    <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-16">
+        
+        <!-- Contact Form Section -->
+        <div class="lg:col-span-7 bg-white rounded-3xl p-8 md:p-12 shadow-xl shadow-slate-200/50 border border-slate-100" id="contact-form">
+            <h2 class="text-3xl font-black mb-8 text-slate-800">Inquiry</h2>
+            <form class="space-y-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-xs font-bold text-slate-400 uppercase tracking-widest mb-2">お名前</label>
+                        <input type="text" placeholder="例：日本 太郎" class="w-full px-5 py-4 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-600 transition-all font-medium">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-400 uppercase tracking-widest mb-2">貴社名・組織名</label>
+                        <input type="text" placeholder="例：Ethos Institute" class="w-full px-5 py-4 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-600 transition-all font-medium">
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-xs font-bold text-slate-400 uppercase tracking-widest mb-2">メールアドレス</label>
+                    <input type="email" placeholder="example@ethos-intel.jp" class="w-full px-5 py-4 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-600 transition-all font-medium">
+                </div>
+                <div>
+                    <label class="block text-xs font-bold text-slate-400 uppercase tracking-widest mb-2">お問い合わせ種別</label>
+                    <select class="w-full px-5 py-4 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-600 transition-all font-medium appearance-none">
+                        <option>戦略的パートナーシップについて</option>
+                        <option>AI倫理・哲学コンサルティング</option>
+                        <option>コミュニティ参加希望</option>
+                        <option>取材・講演依頼</option>
+                        <option>その他</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-xs font-bold text-slate-400 uppercase tracking-widest mb-2">メッセージ内容</label>
+                    <textarea rows="6" placeholder="具体的なご相談内容をご記入ください。" class="w-full px-5 py-4 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-600 transition-all font-medium"></textarea>
+                </div>
+                <button type="submit" class="w-full py-5 bg-ethos text-white font-black rounded-xl hover:bg-opacity-90 transition-all shadow-xl shadow-indigo-900/20">
+                    メッセージを送信する
+                </button>
+            </form>
+        </div>
+
+        <!-- Community & Info Section -->
+        <div class="lg:col-span-5 space-y-12">
+            <!-- Community Info -->
+            <div>
+                <h3 class="text-sm font-black text-ethos tracking-widest uppercase mb-4">Ethos Community</h3>
+                <h2 class="text-3xl font-black mb-6 text-slate-800 leading-tight">知の循環を支える<br>パートナーシップ。</h2>
+                <p class="text-slate-600 font-medium mb-8 leading-relaxed">
+                    私たちは、技術者、哲学者、ビジネスリーダー、そして未来を憂うすべての人々との対話を重視しています。AIがもたらす変革を共に描き、社会実装するためのエコシステムを構築しています。
+                </p>
+                
+                <div class="space-y-4">
+                    <div class="flex gap-4 p-5 bg-white rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow">
+                        <div class="w-12 h-12 rounded-lg bg-indigo-50 flex items-center justify-center shrink-0">
+                            <svg class="w-6 h-6 text-ethos" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-800">Ethos Symposium</h4>
+                            <p class="text-sm text-slate-500">四半期に一度開催される、知性と倫理の探求会議。</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex gap-4 p-5 bg-white rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow">
+                        <div class="w-12 h-12 rounded-lg bg-indigo-50 flex items-center justify-center shrink-0">
+                            <svg class="w-6 h-6 text-ethos" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10l4 4v10a2 2 0 01-2 2z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 2v4h4"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h5M7 12h8M7 16h8"></path></svg>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-800">Intel Whitepapers</h4>
+                            <p class="text-sm text-slate-500">最先端のAI理論と人間中心の設計に関する研究資料の購読。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Global Locations -->
+            <div class="pt-8 border-t border-slate-200">
+                <h3 class="text-sm font-black text-slate-400 tracking-widest uppercase mb-6">Global Hubs</h3>
+                <div class="space-y-6">
+                    <div>
+                        <h4 class="text-lg font-bold text-slate-800 mb-1">Tokyo Intelligence Hub</h4>
+                        <p class="text-sm text-slate-500 font-medium">東京都千代田区大手町 1-1-1 Ethos Tower 42F</p>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-bold text-slate-800 mb-1">Digital Core</h4>
+                        <p class="text-sm text-slate-500 font-medium">contact@ethos-intelligence.io</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Newsletter Section -->
+    <section class="max-w-7xl mx-auto px-6 mt-32">
+        <div class="bg-slate-900 rounded-[3rem] p-12 md:p-20 text-center relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-64 h-64 bg-indigo-600/20 rounded-full blur-3xl -mr-32 -mt-32"></div>
+            <div class="relative z-10">
+                <h2 class="text-3xl md:text-4xl font-black text-white mb-6">Stay Ahead of Evolution</h2>
+                <p class="text-slate-400 font-medium mb-10 max-w-2xl mx-auto">
+                    AIと人間の共生に関する最新の知見、哲学的洞察、そして私たちの挑戦を定期的に配信します。
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 max-w-lg mx-auto">
+                    <input type="email" placeholder="メールアドレスをご入力ください" class="flex-1 px-6 py-4 bg-white/10 border border-white/20 rounded-full text-white placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-white/30 transition-all font-medium">
+                    <button class="px-8 py-4 bg-white text-slate-900 font-black rounded-full hover:bg-indigo-50 transition-all whitespace-nowrap">
+                        購読する
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="bg-slate-900 text-white py-16 px-6 mt-20">
+  <div class="max-w-7xl mx-auto border-b border-white/10 pb-12 mb-12">
+    <h4 class="text-2xl font-black mb-6">Ethos Intelligence</h4>
+    <p class="text-slate-400 leading-relaxed max-w-md font-medium text-sm">膨大なデータに魂を吹き込み、AIの英知で人間の尊厳を再定義し、全人類が「最高の幸福」を自ら選び取れる未来を、情熱を持って切り拓く。</p>
+  </div>
+  <p class="text-slate-500 text-xs font-bold text-center">© 2024 Ethos Intelligence. Built with MySiteGen-Agent.</p>
+</footer>
+
+<script>
+  (function() {
+    document.addEventListener('click', e => {
+      const a = e.target.closest('a');
+      if (a && a.href) {
+        const href = a.getAttribute('href');
+        if (href && !href.startsWith('http') && !href.startsWith('#') && !href.startsWith('mailto:') && !href.startsWith('tel:')) {
+          e.preventDefault();
+          // 親ウィンドウ（App.tsx）へ通知
+          window.parent.postMessage({ type: 'NAVIGATE', path: href }, '*');
+        }
+      }
+    }, true);
+  })();
+</script>
+</body>
+</html>
